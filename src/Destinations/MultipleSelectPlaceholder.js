@@ -17,16 +17,21 @@ const MenuProps = {
 };
 
 const names = [
-  'Oliver Hansen',
-  'Van Henry',
-  'April Tucker',
-  'Ralph Hubbard',
-  'Omar Alexander',
-  'Carlos Abbott',
-  'Miriam Wagner',
-  'Bradley Wilkerson',
-  'Virginia Andrews',
-  'Kelly Snyder',
+  'Cinnamon Grand Colombo',
+  'Cinnamon Lakeside Colombo',
+  'Cinnamon Red Colombo',
+  'Cinnamon Bentota Beach',
+  'Cinnamon Bey Beruwala',
+  'Hikka Tranz by Cinnamon',
+  'Cinnamon Wild Yala',
+  'Trinco Blu by Cinnamon',
+  'Cinnamon Citadel Kandy',
+  'Cinnamon Lodge Habarana',
+  'Habarana Village by Cinnamon',
+  'Cinnamon Velifushi Maldives',
+  'Cinnamon Hakuraa Huraa Maldives',
+  'Cinnamon Dhonveli Maldives',
+  'Ellaidhoo Maldives by Cinnamon'
 ];
 
 function getStyles(name, personName, theme) {
@@ -54,7 +59,7 @@ export default function MultipleSelectPlaceholder() {
 
   return (
     <div>
-      <FormControl sx={{ m: 1, width: 300, mt: 3 }}>
+      <FormControl sx={{  width: 600 }}>
         <Select
           multiple
           displayEmpty
@@ -63,7 +68,7 @@ export default function MultipleSelectPlaceholder() {
           input={<OutlinedInput />}
           renderValue={(selected) => {
             if (selected.length === 0) {
-              return <em>Placeholder</em>;
+              return <em>Cinnamon Life</em>;
             }
 
             return selected.join(', ');
@@ -72,7 +77,7 @@ export default function MultipleSelectPlaceholder() {
           inputProps={{ 'aria-label': 'Without label' }}
         >
           <MenuItem disabled value="">
-            <em>Placeholder</em>
+            <em>Cinnamon Life</em>
           </MenuItem>
           {names.map((name) => (
             <MenuItem
