@@ -1,5 +1,6 @@
 import './App.css';
 import Destination from './Destinations/Destination';
+import ExperienceNew from './ExperienceNew/ExperienceNew';
 import Appbar from './Header/Appbar/Appbar';
 import Header from './Header/Header';
 import ImageSlider from './Slider/ImageSlider';
@@ -12,6 +13,7 @@ function App() {
       <Appbar />
       <ImageSlider slides={SliderData} />
       <Destination />
+      <ExperienceNew />
     </div>
   );
 }

@@ -126,7 +126,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .img-wrapper{
-  background-image: url('https://cinnamonweb.blob.core.windows.net/cinnamonweb-prd/media/cinnamon-dhonveli-dest-0803.png');
+  background-image: url('https://cinnamonweb.blob.core.windows.net/cinnamonweb-prd/misc/cinnamon-life-home-715x550.jpg');
   background-repeat:no-repeat ;
   background-position: center;
   position: relative;
@@ -147,4 +147,26 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
   left: 5%; 
   transform: translateY(-50%);
   z-index: 1;
+}
+.experience{
+  text-align: left;
+  padding-left: 200px;
+}
+.img-container{
+  display: flex;
+  flex-direction: row;
+  
+  
+}
+.img-container img{
+  width: 400px;
+  height: 300px;
+  padding: 10px;
+background-repeat: repeat-x; 
+position: relative; 
+}
+.img-container h4{
+  position: relative;
+  text-align: center;
+  top: 30%;
 }

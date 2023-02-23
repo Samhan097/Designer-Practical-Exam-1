@@ -19,7 +19,7 @@ const card = (
       </Typography>
     </CardContent>
     <CardActions>
-    <Button variant="contained" sx={{fontFamily:'"BodoniStd-BookItalic", serif',fontStyle:'italic'}}>Discover More</Button>
+    <Button variant="contained" sx={{fontFamily:'"BodoniStd-BookItalic", serif',fontStyle:'italic',backgroundColor:'rgb(52, 28, 111)',height:50}}>Discover More</Button>
     </CardActions>
   </React.Fragment>
 );
