@@ -1,6 +1,7 @@
 import './App.css';
 import Destination from './Destinations/Destination';
 import ExperienceNew from './ExperienceNew/ExperienceNew';
+import Footer from './Footer/Footer';
 import Appbar from './Header/Appbar/Appbar';
 import Header from './Header/Header';
 import Offer from './Offers/Offer';
@@ -16,6 +17,7 @@ function App() {
       <Destination />
       <ExperienceNew />
       <Offer />
+      <Footer />
     </div>
   );
 }

@@ -194,3 +194,44 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding-left: 50px;
   text-align: center;
 }
+.footer{
+  background-image: url('https://i.pinimg.com/originals/43/80/1f/43801f36ba43effcfc10a59dbb08773c.jpg');
+  background-repeat:no-repeat ;
+  background-position: center;
+  position: relative;
+  background-size: cover;
+  height: 600px;
+  filter: brightness(100%);
+  padding: 10px 50px 10px 150px;
+}
+.footer-content{
+  display: flex;
+  flex-direction: row;
+}
+.footer-section{ 
+  padding-right: 100px;
+}
+.footer-section h2{
+  font-family: '"BodoniStd-BookItalic", serif';
+  font-style: italic;
+  color: #891caa;
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.footer-section p{
+  padding-top:2px;
+  text-transform: capitalize;
+  color: #aaa4a4;
+  font-size: 18px;
+}
+.contact-icon{
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+}
+.radiobtn{
+  display: flex;
+  flex-direction: row;
+  
+}

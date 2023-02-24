@@ -18,7 +18,7 @@ export default function MediaCard() {
               title="green iguana"
             />
             <CardContent>
-              <Typography gutterBottom variant="body1" component="div" sx={{pt:0,pb:4}}>
+              <Typography gutterBottom variant="body1" component="div" sx={{pt:0,pb:2}}>
               Rooms & Suites
 
               </Typography>
